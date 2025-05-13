@@ -1,0 +1,58 @@
+/* src/css/Header.css */
+
+.header {
+  background-color: #ffffff;
+  color: white;
+  padding: 0 20px;
+  height: 60px; 
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.H1_teste {
+  color: #686767;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+.H2_teste {
+  color: #686767;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.perfil {
+  width: 50px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+  transition: transform 0.2s ease;
+}
+.perfil:hover {
+  transform: scale(1.1);
+}
+
